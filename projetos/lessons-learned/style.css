@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,13 +9,9 @@ body {
 }
 
 #divbody {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 10px auto 5px auto;
   max-width: 995px;
   background-color: #B0C4DE;
-  margin-top: 10px;
-  margin-bottom: 5px;
 }
 
 #cabecalho {
@@ -31,36 +28,32 @@ body {
 
 #sessao_img_link{
   display: flex;
+  flex-wrap: wrap;
 }
 
 #minha_foto {
   margin: 20px;
   margin-top: 120px;
+  max-width: 100%;
 }
 
 #title_links {
   padding-left: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   margin: 150px 0px 15px 90px;
   font-size: 18px;
 }
 
-#img_linkgit{
+#img_linkgit, #img_linkdin {
   width: 130px;
   height: 50px;
-  margin-left: 50px;
-  margin-top: 200px;
-}
-
-#img_linkdin {
-  width: 130px;
-  height: 50px;
-  margin-left: 50px;
-  margin-top: 200px;
+  margin-left: 140px;
+  margin-top: 90px;
 }
 
 #sessao_licoes {
   display: flex;
+  flex-wrap: wrap;
 }
 
 li {
@@ -90,6 +83,7 @@ li {
 
 #artigo_sessao {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #h4_artigo_sobre_mim {
@@ -99,6 +93,7 @@ li {
 }
 
 #artigo_sobre_mim{
+  max-width: 450px;
   text-align: justify;
   margin: 25px 50px 15px 15px;
   font-size: 20px;
@@ -111,13 +106,14 @@ li {
 }
 
 #texto_passagem_aprendizado{
+  max-width: 450px;
   margin: 25px 15px 15px 15px;
   text-align: justify;
   font-size: 20px;
 }
 
 #ulnavrodape {
-  margin: 50px;
+  margin: 90px;
   font-size: 18px;
 }
 
@@ -125,7 +121,6 @@ li {
   margin-top: 100px;
   background-color: #5F9EA0;
   width: 100%;
-  display: inline-block;
   padding: 20px;
   text-align: center;
 }
